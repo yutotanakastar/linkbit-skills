@@ -1,6 +1,6 @@
 ---
 name: linkbit
-description: Shorten URLs, create bulk links, QR codes, and click analytics with LinkBit via MCP or REST API.
+description: LinkBit skills for AI agents to shorten links, generate QR codes, and track analytics via MCP and REST.
 ---
 
 # LinkBit

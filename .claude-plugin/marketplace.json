@@ -1,17 +1,35 @@
 {
   "name": "linkbit-skills",
   "owner": {
-    "name": "yutotanakastar"
+    "name": "yutotanakastar",
+    "url": "https://github.com/yutotanakastar"
+  },
+  "metadata": {
+    "description": "Claude Code marketplace for LinkBit: short links, QR codes, and analytics via MCP",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "linkbit",
       "source": "./",
-      "description": "Shorten links, QR codes, and click analytics with LinkBit (MCP + REST).",
+      "description": "Claude Code marketplace for LinkBit: short links, QR codes, and analytics via MCP.",
       "version": "1.0.0",
       "author": {
-        "name": "yutotanakastar"
+        "name": "yutotanakastar",
+        "url": "https://github.com/yutotanakastar"
       },
+      "homepage": "https://linkbit.live/mcp",
+      "repository": "https://github.com/yutotanakastar/linkbit-skills",
+      "keywords": [
+        "agent-skills",
+        "claude-code",
+        "claude-marketplace",
+        "mcp",
+        "mcp-server",
+        "ai-agents",
+        "linkbit",
+        "url-shortener"
+      ],
       "skills": ["./skills/linkbit"]
     }
   ]
